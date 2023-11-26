@@ -61,7 +61,7 @@ function createMarkup(arr) {
   return arr
     .map(
       image => `<div class="photo-card">
-      <img src=${image.webformatURL} alt=${image.tags} loading="lazy" />
+      <img class="gallery_img" src=${image.webformatURL} alt=${image.tags} loading="lazy" />
       <div class="info">
         <p class="info-item">
           <b>Likes:${image.likes}</b>
